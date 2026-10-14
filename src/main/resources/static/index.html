@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JobConnect | Find Your Next Opportunity</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<header class="topbar"><a class="brand" href="/">JobConnect<span>.</span></a><nav><a href="#jobs">Find Jobs</a><a href="#how">How It Works</a></nav></header>
+<main>
+<section class="hero"><p class="eyebrow">YOUR CAREER STARTS HERE</p><h1>Find a job that fits<br><span>your future.</span></h1>
+<p class="hero-copy">Explore opportunities and take the next step in your career.</p>
+<form id="searchForm" class="search-box"><input id="searchInput" type="search" placeholder="Search job title, company, or skill" aria-label="Search jobs"><button type="submit">Search jobs</button></form>
+<p class="hint">Try “Java”, “Spring Boot”, or “Full Stack”.</p></section>
+<section id="jobs" class="jobs-section"><div class="section-heading"><div><p class="eyebrow">EXPLORE OPPORTUNITIES</p><h2>Featured jobs</h2></div><span id="jobCount" class="count">Loading jobs...</span></div>
+<div id="jobList" class="job-grid"></div><p id="status" class="status" role="status"></p></section>
+<section id="how" class="how-section"><p class="eyebrow">SIMPLE & STRAIGHTFORWARD</p><h2>Your next opportunity in three steps</h2>
+<div class="steps"><article><b>01</b><h3>Explore</h3><p>Browse roles that match your skills and interests.</p></article><article><b>02</b><h3>Choose</h3><p>Read the job details and select a suitable role.</p></article><article><b>03</b><h3>Apply</h3><p>Submit your details and save your application.</p></article></div></section>
+</main><footer><span class="brand">JobConnect<span>.</span></span><p>Student project · Java + Spring Boot + MySQL</p></footer>
+<dialog id="applyDialog"><form id="applyForm" class="apply-form"><button type="button" id="closeDialog" class="close" aria-label="Close">×</button>
+<p class="eyebrow">TAKE THE NEXT STEP</p><h2>Apply for this job</h2><p id="selectedJob" class="selected-job"></p><input type="hidden" id="jobId">
+<label for="applicantName">Full name</label><input id="applicantName" required maxlength="120" placeholder="Enter your full name">
+<label for="email">Email address</label><input id="email" type="email" required maxlength="180" placeholder="you@example.com">
+<button class="primary full" type="submit">Submit application</button><p id="applyStatus" class="status" role="status"></p></form></dialog>
+<script src="app.js"></script></body></html>
