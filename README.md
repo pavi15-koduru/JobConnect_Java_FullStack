@@ -1,26 +1,42 @@
-# JobConnect — Job Portal and Recruitment Management System
+# JobConnect – Job Portal & Recruitment Management System
 
-Learning/demo project built with Java 17, Spring Boot, JDBC, MySQL, HTML, CSS, and JavaScript.
+**Developed by: Pavithra Koduru**
 
-## Features
-- Read jobs from MySQL using a Spring Boot REST API.
-- Search jobs by title, company, or skills.
-- Submit applications and save them to MySQL.
-- View saved applications through `GET /api/applications`.
+🔗 **Live Demo:** https://jobconnectjavafullstack-production.up.railway.app
 
-## Setup
-1. In MySQL, run: `CREATE DATABASE jobconnect;`
-2. Open `src/main/resources/application.properties` and set your MySQL username and password.
-3. Open this folder in VS Code. Ensure JDK 17+ and Maven are installed.
-4. In the project terminal run: `mvn spring-boot:run`
-5. Open `http://localhost:8080`.
+## 📌 About the Project
 
-Tables and three demo jobs are created at startup.
+JobConnect is a web-based job portal designed to connect job seekers with employment opportunities. It provides a platform for exploring job listings and streamlining the recruitment process.
 
-## API endpoints
-- `GET /api/jobs`
-- `GET /api/jobs?search=java`
-- `POST /api/applications` with JSON: `{"jobId":1,"applicantName":"Your Name","email":"you@example.com"}`
-- `GET /api/applications`
+## ✨ Features
 
-This is a learning project, not production-ready. Add authentication, authorization, automated tests, and stronger validation before real deployment. Use sample data for public demos.
+- Job search and job listings
+- Featured job opportunities
+- User registration and login (if enabled)
+- Recruitment management functionality
+- Responsive and user-friendly interface
+
+## 🛠️ Technologies Used
+
+- **Backend:** Java, Spring Boot
+- **Database:** MySQL
+- **Frontend:** HTML, CSS, JavaScript
+- **Build Tool:** Maven
+- **Deployment:** Railway
+- **Version Control:** Git and GitHub
+
+## 🚀 Live Application
+
+Visit JobConnect: https://jobconnectjavafullstack-production.up.railway.app
+
+## 👩‍💻 Author
+
+**Pavithra Koduru**
+
+B.Tech – Artificial Intelligence and Data Science
+
+GitHub: https://github.com/pavi15-koduru
+
+---
+
+*This project was developed as a full-stack web application to demonstrate web development, database integration, and deployment skills.*
